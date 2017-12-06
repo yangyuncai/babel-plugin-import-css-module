@@ -21,9 +21,7 @@ Add babel plugin:
 ```json
 {
   "plugin": [
-    ["import-css-module", {
-      rule: /\.css$/
-    }]
+    ["import-css-module"]
   ]
 }
 ```
