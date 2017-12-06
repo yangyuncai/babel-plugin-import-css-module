@@ -4,11 +4,7 @@
 ![Package Dependency](https://david-dm.org/bornkiller/babel-plugin-import-css-module.svg?style=flat)
 ![Package DevDependency](https://david-dm.org/bornkiller/babel-plugin-import-css-module/dev-status.svg?style=flat)
 
-Modular import plugin for babel, compatible with antd, antd-mobile, lodash, and so on.
-
-## Changelog
-+ `ShakingImportOptions` add property `libraryNameImport` since `v0.4.0`.
-+ `ShakingImportOptions` property `style` transform into `libraryStyle`
+solution for develop component with css module, which full of uncertainty.
 
 ## Usage
 Install:
@@ -26,16 +22,22 @@ Add babel plugin:
 {
   "plugin": [
     ["import-css-module", {
+      rule: /\.css$/
     }]
   ]
 }
 ```
 
 ## Example
-```json
+```javascript
+import style, { liberty } from './mascot.css';
 ```
 
-## Showcase
+```javascript
+import './mascot.css';
+import style, { liberty } from './mascot.css.json';"
+```
+
 
 ## License
 MIT
