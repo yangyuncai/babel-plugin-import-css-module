@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-import-css-module",
+  "version": "0.1.0",
+  "description": "solution for develop component with css module, which full of uncertainty.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js --coverage",
+    "test:watch": "jest --config jest.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bornkiller/babel-plugin-import-css-module.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "css-module"
+  ],
+  "author": "bornkiller <hjj491229492@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bornkiller/babel-plugin-import-css-module/issues"
+  },
+  "homepage": "https://github.com/bornkiller/babel-plugin-import-css-module#README",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "eslint": "^4.0.0",
+    "jest": "^20.0.4",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {
+    "babel-types": "^6.25.0"
+  }
+}
