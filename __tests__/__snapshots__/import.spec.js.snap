@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-import-css-module should insert json 1`] = `
+"import './mascot.css';
+import style, { liberty } from './mascot.css.json';"
+`;
