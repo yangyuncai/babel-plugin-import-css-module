@@ -1,12 +1,14 @@
 # babel-plugin-import-css-module
-![Build Status](https://img.shields.io/travis/bornkiller/babel-plugin-import-css-module/master.svg?style=flat)
-[![Coverage Status](https://coveralls.io/repos/github/bornkiller/babel-plugin-import-css-module/badge.svg?branch=master)](https://coveralls.io/github/bornkiller/babel-plugin-import-css-module?branch=master)
-![Package Dependency](https://david-dm.org/bornkiller/babel-plugin-import-css-module.svg?style=flat)
-![Package DevDependency](https://david-dm.org/bornkiller/babel-plugin-import-css-module/dev-status.svg?style=flat)
 
-solution for develop component with css module, which full of uncertainty.
+![Build Status](https://img.shields.io/travis/coco-template/babel-plugin-import-css-module/master.svg?style=flat)
+[![Coverage Status](https://coveralls.io/repos/github/coco-template/babel-plugin-import-css-module/badge.svg?branch=master)](https://coveralls.io/github/coco-template/babel-plugin-import-css-module?branch=master)
+![Package Dependency](https://david-dm.org/coco-template/babel-plugin-import-css-module.svg?style=flat)
+![Package DevDependency](https://david-dm.org/coco-template/babel-plugin-import-css-module/dev-status.svg?style=flat)
+
+solution for develop component with css module.
 
 ## Usage
+
 Install:
 
 ```shell
@@ -20,22 +22,21 @@ Add babel plugin:
 
 ```json
 {
-  "plugin": [
-    ["import-css-module"]
-  ]
+  "plugin": [["import-css-module"]]
 }
 ```
 
 ## Example
+
 ```javascript
-import style, { liberty } from './mascot.css';
+import styles, { liberty } from './mascot.css';
 ```
 
 ```javascript
 import './mascot.css';
-import style, { liberty } from './mascot.css.json';"
+import styles, { liberty } from './mascot.css.json';
 ```
 
-
 ## License
+
 MIT

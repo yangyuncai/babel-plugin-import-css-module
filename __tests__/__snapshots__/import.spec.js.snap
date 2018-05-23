@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`babel-plugin-import-css-module should accept match rule override 1`] = `
+"import { liberty } from './mascot.css';
+import './mascot.pcss';
+import { love } from './mascot.pcss.json';"
+`;
+
 exports[`babel-plugin-import-css-module should insert json 1`] = `
 "import './mascot.css';
-import style, { liberty } from './mascot.css.json';"
+import { liberty } from './mascot.css.json';
+import './mascot.pcss';
+import { love } from './mascot.pcss.json';"
 `;

@@ -1,11 +1,15 @@
 module.exports = {
-  moduleFileExtensions: ['js', 'json', 'ts'],
+  moduleFileExtensions: ['js', 'json'],
   moduleDirectories: ['node_modules'],
-  moduleNameMapper: {
-    '\\.(css|less|scss)$': 'identity-obj-proxy'
-  },
   // Coverage report
-  collectCoverageFrom: ['src/**/*.js'],
+  collectCoverageFrom: ['lib/**/*.js'],
   coverageDirectory: 'coverage',
-  coverageReporters: ['lcov', 'html']
+  coverageReporters: ['lcov', 'html'],
+  // Test configuration
+  transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\]'],
+  // Coverage report
+  // Test configuration
+  testEnvironment: 'node',
+  testMatch: ['<rootDir>/__tests__/**/*.spec.js'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/es/'],
 };

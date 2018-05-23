@@ -1,32 +1,54 @@
 {
   "name": "babel-plugin-import-css-module",
   "version": "0.1.0",
-  "description": "solution for develop component with css module, which full of uncertainty.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest --config jest.config.js --coverage",
-    "test:watch": "jest --config jest.config.js --watch"
+  "description": "solution for develop components with css module.",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=8.0.0"
   },
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "prepush": "npm test",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "files": ["lib"],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bornkiller/babel-plugin-import-css-module.git"
+    "url":
+      "git+ssh://git@github.com/coco-platform/babel-plugin-import-css-module.git"
   },
-  "keywords": [
-    "babel",
-    "plugin",
-    "css-module"
+  "keywords": ["babel", "plugin", "css-module"],
+  "author": "huang.jian <hjj491229492@hotmail.com>",
+  "contributors": [
+    {
+      "name": "huang.jian",
+      "email": "hjj491229492@hotmail.com"
+    },
+    {
+      "name": "yang.yuncai",
+      "email": "383235388@qq.com"
+    }
   ],
-  "author": "bornkiller <hjj491229492@hotmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bornkiller/babel-plugin-import-css-module/issues"
+    "url":
+      "https://github.com/coco-platform/babel-plugin-import-css-module/issues"
   },
-  "homepage": "https://github.com/bornkiller/babel-plugin-import-css-module#README",
+  "homepage":
+    "https://github.com/coco-platform/babel-plugin-import-css-module#README",
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "eslint": "^4.0.0",
-    "jest": "^20.0.4",
-    "lodash": "^4.17.4"
+    "babel-core": "^6.26.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.4",
+    "lodash": "^4.17.10",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.6.0"
   },
   "dependencies": {
     "babel-types": "^6.25.0"
