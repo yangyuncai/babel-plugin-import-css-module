@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-import-css-module",
+  "name": "@coco-platform/babel-plugin-import-css-module",
   "version": "0.3.0",
   "description": "solution for develop components with css module.",
   "main": "lib/index.js",
