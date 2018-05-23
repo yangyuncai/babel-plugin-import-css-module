@@ -22,7 +22,16 @@ Add babel plugin:
 
 ```json
 {
-  "plugin": [["import-css-module"]]
+  "plugin": [
+    [
+      [
+        "import-css-module",
+        {
+          "rule": "\\.pcss$"
+        }
+      ]
+    ]
+  ]
 }
 ```
 
