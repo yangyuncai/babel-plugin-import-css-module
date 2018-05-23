@@ -13,9 +13,9 @@ Install:
 
 ```shell
 # npm
-npm install babel-plugin-import-css-module --save-dev
+npm install @coco-platform/babel-plugin-import-css-module --save-dev
 # yarn
-yarn add babel-plugin-import-css-module --dev
+yarn add @coco-platform/babel-plugin-import-css-module --dev
 ```
 
 Add babel plugin:
@@ -25,7 +25,7 @@ Add babel plugin:
   "plugin": [
     [
       [
-        "import-css-module",
+        "@coco-platform/import-css-module",
         {
           "rule": "\\.pcss$"
         }
