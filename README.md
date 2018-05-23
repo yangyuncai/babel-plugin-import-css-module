@@ -1,9 +1,9 @@
 # babel-plugin-import-css-module
 
-![Build Status](https://img.shields.io/travis/coco-template/babel-plugin-import-css-module/master.svg?style=flat)
-[![Coverage Status](https://coveralls.io/repos/github/coco-template/babel-plugin-import-css-module/badge.svg?branch=master)](https://coveralls.io/github/coco-template/babel-plugin-import-css-module?branch=master)
-![Package Dependency](https://david-dm.org/coco-template/babel-plugin-import-css-module.svg?style=flat)
-![Package DevDependency](https://david-dm.org/coco-template/babel-plugin-import-css-module/dev-status.svg?style=flat)
+![Build Status](https://img.shields.io/travis/coco-platform/babel-plugin-import-css-module/master.svg?style=flat)
+[![Coverage Status](https://coveralls.io/repos/github/coco-platform/babel-plugin-import-css-module/badge.svg?branch=master)](https://coveralls.io/github/coco-platform/babel-plugin-import-css-module?branch=master)
+![Package Dependency](https://david-dm.org/coco-platform/babel-plugin-import-css-module.svg?style=flat)
+![Package DevDependency](https://david-dm.org/coco-platform/babel-plugin-import-css-module/dev-status.svg?style=flat)
 
 solution for develop component with css module.
 
