@@ -10,15 +10,22 @@
     "precommit": "pretty-quick --staged",
     "prepush": "npm test",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
-    "url":
-      "git+ssh://git@github.com/coco-platform/babel-plugin-import-css-module.git"
+    "url": "git+ssh://git@github.com/coco-platform/babel-plugin-import-css-module.git"
   },
-  "keywords": ["babel", "plugin", "css-module"],
+  "keywords": [
+    "babel",
+    "plugin",
+    "css-module"
+  ],
   "author": "huang.jian <hjj491229492@hotmail.com>",
   "contributors": [
     {
@@ -32,11 +39,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url":
-      "https://github.com/coco-platform/babel-plugin-import-css-module/issues"
+    "url": "https://github.com/coco-platform/babel-plugin-import-css-module/issues"
   },
-  "homepage":
-    "https://github.com/coco-platform/babel-plugin-import-css-module#README",
+  "homepage": "https://github.com/coco-platform/babel-plugin-import-css-module#README",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "eslint": "^4.19.1",
@@ -52,6 +57,8 @@
   },
   "dependencies": {
     "babel-types": "^6.25.0",
-    "jest-cli": "^22.4.4"
-  }
+    "jest-cli": "^24.9.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
